@@ -291,10 +291,8 @@ h6 {
 /* Nav Meu Container */
 
 #nav-menu-container {
-  position: absolute;
-  left: 1075px;
-  /*float: right;*/
-  /*left: 500px;*/
+  float: right;
+  
   margin: 0;
 }
 
