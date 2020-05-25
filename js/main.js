@@ -17,6 +17,7 @@ jQuery(document).ready(function( $ ) {
  $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('.floating-btn').fadeIn('slow');
+
     } else {
       $('.floating-btn').fadeOut('slow');
     }
