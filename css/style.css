@@ -104,6 +104,9 @@ h6 {
 
 /* Back to top button */
 
+
+
+
 .back-to-top {
   position: fixed;
   display: none;
@@ -117,6 +120,8 @@ h6 {
   bottom: 15px;
   transition: background 0.5s ease-in-out;
 }
+
+
 
 .back-to-top i {
   font-size: 24px;
@@ -133,6 +138,7 @@ h6 {
   background: #e0072f;
   color: #fff;
 }
+
 
 /* Sections Header
 --------------------------------*/
@@ -166,6 +172,7 @@ h6 {
 .section-header p {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+
   padding: 0;
   margin: 0;
   font-size: 18px;
@@ -360,6 +367,45 @@ h6 {
   line-height: 1;
   font-size: 16px;
 }
+
+.floating-btn{
+  display: none;
+  visibility: hidden;
+  color: #2c362c;
+  background: #FFC800;
+  padding: 7px 22px;
+  border-radius: 50px;
+  border: 2px solid #FFC800;
+  transition: all ease-in-out 0.3s;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  margin-left: 8px;
+  margin-top: 2px;
+  line-height: 1;
+  font-size: 16px;
+  position: fixed;
+  
+  bottom: 20px;
+}
+
+.wrapper{
+  text-align: center;
+  
+}
+
+
+.floating-btn:focus {
+  background: #e0072f;
+  color: #fff;
+  outline: none;
+}
+
+.floating-btn:hover {
+  background: #e0072f;
+  color: #fff;
+}
+
+
 
 .nav-menu li.buy-tickets a:hover {
   background: none;
@@ -1592,8 +1638,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 768px) {
   .back-to-top {
-    bottom: 15px;
+    visibility: hidden;
+    
   }
+
+  .floating-btn{
+    visibility: visible;
+  }
+
+  
+
+  
 
   #faq #faq-list a {
     font-size: 18px;

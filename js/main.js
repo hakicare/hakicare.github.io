@@ -13,6 +13,15 @@ jQuery(document).ready(function( $ ) {
     return false;
   });
 
+//floating-btn
+ $(window).scroll(function() {
+    if ($(this).scrollTop() > 100) {
+      $('.floating-btn').fadeIn('slow');
+    } else {
+      $('.floating-btn').fadeOut('slow');
+    }
+  });
+  
   // Header fixed on scroll
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
