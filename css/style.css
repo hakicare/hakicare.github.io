@@ -384,7 +384,7 @@ h6 {
   line-height: 1;
   font-size: 16px;
   position: fixed; 
-  left: 145px;
+  left: 135px;
   bottom: 20px;
 }
 
@@ -824,267 +824,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 
-/*--------------------------------------------------------------
-# Speakers Section
---------------------------------------------------------------*/
-
-#speakers {
-  padding: 60px 0 30px 0;
-}
-
-#speakers .speaker {
-  position: relative;
-  overflow: hidden;
-  margin-bottom: 30px;
-}
-
-#speakers .speaker .details {
-  background: rgba(6, 12, 34, 0.76);
-  position: absolute;
-  left: 0;
-  bottom: -30px;
-  right: 0;
-  text-align: center;
-  padding-top: 10px;
-  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
-}
-
-#speakers .speaker .details h3 {
-  color: #fff;
-  font-size: 22px;
-  font-weight: 600;
-  margin-bottom: 5px;
-}
-
-#speakers .speaker .details p {
-  color: #fff;
-  font-size: 15px;
-  margin-bottom: 10px;
-  font-style: italic;
-}
-
-#speakers .speaker .details .social {
-  height: 30px;
-}
-
-#speakers .speaker .details a {
-  color: #fff;
-}
-
-#speakers .speaker .details a:hover {
-  color: #FFC800;
-}
-
-#speakers .speaker:hover .details {
-  bottom: 0;
-}
-
-#speakers-details {
-  padding: 60px 0;
-}
-
-#speakers-details .details h2 {
-  color: #112363;
-  font-size: 28px;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-
-#speakers-details .details .social {
-  margin-bottom: 15px;
-}
-
-#speakers-details .details .social a {
-  background: #e9edfb;
-  color: #112363;
-  line-height: 1;
-  display: inline-block;
-  text-align: center;
-  border-radius: 50%;
-  width: 36px;
-  height: 36px;
-  padding-top: 9px;
-}
-
-#speakers-details .details .social a:hover {
-  background: #FFC800;
-  color: #fff;
-}
-
-#speakers-details .details .social a i {
-  font-size: 18px;
-}
-
-#speakers-details .details p {
-  color: #112363;
-  font-size: 15px;
-  margin-bottom: 10px;
-}
-
-/*--------------------------------------------------------------
-# Schedule Section
---------------------------------------------------------------*/
-
-#schedule {
-  padding: 60px 0 60px 0;
-}
-
-#schedule .nav-tabs {
-  text-align: center;
-  margin: auto;
-  display: block;
-  border-bottom: 0;
-  margin-bottom: 30px;
-}
-
-#schedule .nav-tabs li {
-  display: inline-block;
-  margin-bottom: 0;
-}
-
-#schedule .nav-tabs a {
-  border: none;
-  border-radius: 50px;
-  font-weight: 600;
-  background-color: #0e1b4d;
-  color: #fff;
-  padding: 10px 100px;
-}
-
-#schedule .nav-tabs a.active {
-  background-color: #FFC800;
-  color: #fff;
-}
-
-#schedule .sub-heading {
-  text-align: center;
-  font-size: 18px;
-  font-style: italic;
-  margin: 0 auto 30px auto;
-}
-
-#schedule .tab-pane {
-  transition: ease-in-out .2s;
-}
-
-#schedule .schedule-item {
-  border-bottom: 1px solid #cad4f6;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  transition: background-color ease-in-out 0.3s;
-}
-
-#schedule .schedule-item:hover {
-  background-color: #fff;
-}
-
-#schedule .schedule-item time {
-  padding-bottom: 5px;
-  display: inline-block;
-}
-
-#schedule .schedule-item .speaker {
-  width: 60px;
-  height: 60px;
-  overflow: hidden;
-  border-radius: 50%;
-  float: left;
-  margin: 0 10px 10px 0;
-}
-
-#schedule .schedule-item .speaker img {
-  height: 100%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  margin-left: 50%;
-  transition: all ease-in-out 0.3s;
-}
-
-#schedule .schedule-item h4 {
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 5px;
-}
-
-#schedule .schedule-item h4 span {
-  font-style: italic;
-  color: #19328e;
-  font-weight: normal;
-  font-size: 16px;
-}
-
-#schedule .schedule-item p {
-  font-style: italic;
-  color: #152b79;
-  margin-bottom: 0;
-}
-
-/*--------------------------------------------------------------
-# Venue Section
---------------------------------------------------------------*/
-
-#venue {
-  padding: 60px 0;
-}
-
-#venue .container-fluid {
-  margin-bottom: 3px;
-}
-
-#venue .venue-map iframe {
-  width: 100%;
-  height: 100%;
-  min-height: 300px;
-}
-
-#venue .venue-info {
-  background: url("../img/venue-info-bg.jpg") top center no-repeat;
-  background-size: cover;
-  position: relative;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-#venue .venue-info:before {
-  content: "";
-  background: rgba(13, 20, 41, 0.8);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
-#venue .venue-info h3 {
-  font-size: 36px;
-  font-weight: 700;
-  color: #fff;
-}
-
-#venue .venue-info p {
-  color: #fff;
-  margin-bottom: 0;
-}
-
-#venue .venue-gallery-container {
-  padding-right: 12px;
-}
-
-#venue .venue-gallery {
-  overflow: hidden;
-  border-right: 3px solid #fff;
-  border-bottom: 3px solid #fff;
-}
-
-#venue .venue-gallery img {
-  transition: all ease-in-out 0.4s;
-}
-
-#venue .venue-gallery:hover img {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
 
 
 /*--------------------------------------------------------------
@@ -1198,81 +937,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   
 }
 
-/*--------------------------------------------------------------
-# Buy Tickets Section
---------------------------------------------------------------*/
 
-#buy-tickets {
-  padding: 60px 0;
-}
-
-#buy-tickets .card {
-  border: none;
-  border-radius: 5px;
-  transition: all  0.3s ease-in-out;
-  box-shadow: 0 10px 25px 0 rgba(6, 12, 34, 0.1);
-}
-
-#buy-tickets .card:hover {
-  box-shadow: 0 10px 35px 0 rgba(6, 12, 34, 0.2);
-}
-
-#buy-tickets .card hr {
-  margin: 25px 0;
-}
-
-#buy-tickets .card .card-title {
-  margin: 10px 0;
-  font-size: 14px;
-  letter-spacing: 1px;
-  font-weight: bold;
-}
-
-#buy-tickets .card .card-price {
-  font-size: 48px;
-  margin: 0;
-}
-
-#buy-tickets .card ul li {
-  margin-bottom: 20px;
-}
-
-#buy-tickets .card .text-muted {
-  opacity: 0.7;
-}
-
-#buy-tickets .card .btn {
-  font-size: 15px;
-  border-radius: 50px;
-  padding: 10px 40px;
-  transition: all 0.2s;
-  background-color: #FFC800;
-  border: 0;
-  color: #fff;
-}
-
-#buy-tickets .card .btn:hover {
-  background-color: #FFC800;
-}
-
-#buy-tickets #buy-ticket-modal input,
-#buy-tickets #buy-ticket-modal select {
-  border-radius: 0;
-}
-
-#buy-tickets #buy-ticket-modal .btn {
-  font-size: 15px;
-  border-radius: 50px;
-  padding: 10px 40px;
-  transition: all 0.2s;
-  background-color: #FFC800;
-  border: 0;
-  color: #fff;
-}
-
-#buy-tickets #buy-ticket-modal .btn:hover {
-  background-color: #FFC800;
-}
 
 /*--------------------------------------------------------------
 # Contact Section
@@ -1540,60 +1205,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/
-
-@media (min-width: 767px) {
-  #subscribe input {
-    min-width: 400px;
-  }
-}
-
-@media (min-width: 768px) {
-  #contact .contact-address,
-  #contact .contact-phone,
-  #contact .contact-email {
-    padding: 20px 0;
-  }
-
-  #contact .contact-phone {
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-  }
-}
-
-@media (min-width: 991px) {
-  #schedule .sub-heading {
-    width: 75%;
-  }
-}
-
-@media (min-width: 1024px) {
-  #intro {
-    
-    background-attachment: scroll;
-  }
-
-  #about {
-    background-attachment: scroll;
-  }
-
-  #subscribe {
-    background-attachment: scroll;
-  }
-}
-
-@media (max-width: 1199px) {
-  #header .container {
-    max-width: 100%;
-  }
-
-  .nav-menu a {
-    padding: 8px 4px;
-  }
-}
-
+/*other android devices*/
 @media (max-width: 991px) {
-
-  
   #header {
     background: rgba(245,245,245,0.65);    
     height: 70px;
@@ -1604,9 +1217,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   #header #logo h1{
     font-size: 24px;
     font-weight: bold;
-  }
-
-  
+  }  
 
   #intro {
     background-position-y: 70px;
@@ -1629,7 +1240,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #intro .intro-container {
-    left: 50px;
+    left: 40px;
     top: 340px;  
     
   }
@@ -1650,9 +1261,100 @@ body.mobile-nav-active #mobile-nav-toggle {
   #schedule .nav-tabs a {
     padding: 8px 60px;
   }
+
+
+.back-to-top {
+  visibility: hidden;
+  
 }
 
-@media (max-width: 768px) {
+.floating-btn{
+  visibility: visible;
+  align-items: center;
+}
+
+
+
+
+
+#faq #faq-list a {
+  font-size: 18px;
+}
+
+#faq #faq-list i {
+  top: 13px;
+}
+  
+  
+}
+
+
+
+/* Iphone 6,6s,7,8*/
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+    #header {
+      background: rgba(245,245,245,0.65);    
+      height: 70px;
+      padding: 15px 0;
+      transition: all 0.5s;
+    }
+  
+    #header #logo h1{
+      font-size: 24px;
+      font-weight: bold;
+    }
+  
+    
+  
+    #intro {
+      background-position-y: 70px;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  
+    #intro .about-btn {
+      visibility: hidden;
+      background: #FFC800;
+    }
+  
+    
+    #nav-menu-container {
+      display: none;
+    }
+  
+    #mobile-nav-toggle {
+      display: inline;
+    }
+  
+    #intro .intro-container {
+      left: 50px;
+      top: 340px;  
+      
+    }
+    #about{
+      top: -50px;
+    }
+  
+   
+  
+    #intro h1 {
+      font-size: 34px;
+    }
+  
+    #intro p {
+      font-size: 16px;
+    }
+  
+    #schedule .nav-tabs a {
+      padding: 8px 60px;
+    }
+  
+
   .back-to-top {
     visibility: hidden;
     
@@ -1660,6 +1362,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   .floating-btn{
     visibility: visible;
+    align-items: center;
   }
 
   
@@ -1675,26 +1378,282 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-@media (max-width: 767px) {
-  #schedule .nav-tabs a {
-    padding: 8px 50px;
+/*Iphone 6,7,8 plus*/
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+    #header {
+      background: rgba(245,245,245,0.65);    
+      height: 70px;
+      padding: 15px 0;
+      transition: all 0.5s;
+    }
+  
+    #header #logo h1{
+      font-size: 24px;
+      font-weight: bold;
+    }
+  
+    
+  
+    #intro {
+      background-position-y: 70px;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  
+    #intro .about-btn {
+      visibility: hidden;
+      background: #FFC800;
+    }
+  
+    
+    #nav-menu-container {
+      display: none;
+    }
+  
+    #mobile-nav-toggle {
+      display: inline;
+    }
+  
+    #intro .intro-container {
+      left: 60px;
+      top: 360px;  
+      
+    }
+    #about{
+      top: -50px;
+    }
+  
+   
+  
+    #intro h1 {
+      font-size: 34px;
+    }
+  
+    #intro p {
+      font-size: 16px;
+    }
+  
+    #schedule .nav-tabs a {
+      padding: 8px 60px;
+    }
+  
+
+  .back-to-top {
+    visibility: hidden;
+    
+  }
+
+  .floating-btn{
+    visibility: visible;
+    align-items: center;
+  }
+
+  
+  #faq #faq-list a {
+    font-size: 18px;
+  }
+
+  #faq #faq-list i {
+    top: 13px;
+  }
+
+}
+
+/*Ipad*/
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #header {
+      background: rgba(245,245,245,0.65);    
+      height: 70px;
+      padding: 15px 0;
+      transition: all 0.5s;
+    }
+  
+    #header #logo h1{
+      font-size: 24px;
+      font-weight: bold;
+    }
+  
+    
+  
+    #intro {
+      background-position-y: 70px;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  
+    #intro .about-btn {
+      font-size: 18px;
+      background: #FFC800;
+      padding: 10px 20px;
+    }
+  
+    
+    #nav-menu-container {
+      display: none;
+    }
+  
+    #mobile-nav-toggle {
+      display: inline;
+    }
+  
+    #intro .intro-container {
+      left: 5px;
+      top: 250px; 
+                
+    }
+    #about{
+      top: -50px;
+    }
+   
+    #about h2{
+      font-size: 42px;
+    }
+    #about p{
+      font-size: 16px;
+    }
+    #about h4{
+      font-size: 17px;
+    }
+  
+    #intro h1 {
+      font-size: 30px;
+    }
+  
+    #intro p {
+      font-size: 16px;
+    }
+  
+    #schedule .nav-tabs a {
+      padding: 8px 60px;
+    }
+  
+
+  .back-to-top {
+    visibility: hidden;
+    
+  }
+
+  .floating-btn{
+    visibility: visible;
+    align-items: center;
+  }
+
+  
+  #faq #faq-list a {
+    font-size: 18px;
+  }
+
+  #faq #faq-list i {
+    top: 13px;
+  }
+}
+/*Ipad Pro*/
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #header {
+      background: rgba(245,245,245,0.65);    
+      height: 70px;
+      padding: 15px 0;
+      transition: all 0.5s;
+    }
+  
+    #header #logo h1{
+      font-size: 24px;
+      font-weight: bold;
+    }
+  
+    
+  
+    #intro {
+      background-position-y: 70px;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  
+    #intro .about-btn {
+      font-size: 18px;
+      background: #FFC800;
+      padding: 10px 20px;
+    }
+  
+    
+    #nav-menu-container {
+      display: inline;
+    }
+  
+    #mobile-nav-toggle {
+      display: none;
+    }
+  
+    #intro .intro-container {
+      left: -50px;
+      top: 300px; 
+                
+    }
+    #about{
+      top: -50px;
+    }
+   
+    #about h2{
+      font-size: 42px;
+    }
+    #about p{
+      font-size: 16px;
+    }
+    #about h4{
+      font-size: 17px;
+    }
+  
+    #intro h1 {
+      font-size: 34px;
+    }
+  
+    #intro p {
+      font-size: 16px;
+    }
+  
+    #schedule .nav-tabs a {
+      padding: 8px 60px;
+    }
+  
+
+  .back-to-top {
+    visibility: hidden;
+    
+  }
+
+  .floating-btn{
+    visibility: visible;
+    align-items: center;
+  }
+
+  
+  #faq #faq-list a {
+    font-size: 18px;
+  }
+
+  #faq #faq-list i {
+    top: 13px;
   }
 }
 
-@media (max-width: 574px) {
-  #venue .venue-info h3 {
-    font-size: 24px;
-  }
-}
 
-@media (max-width: 480px) {
-  #schedule .nav-tabs a {
-    padding: 8px 30px;
-  }
-}
 
-@media (max-width: 460px) {
-  #subscribe button {
-    margin-top: 10px;
-  }
-}  
+
+
+
+
+  
+  
