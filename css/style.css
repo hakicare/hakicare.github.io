@@ -1207,96 +1207,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 /*other android devices*/
 @media (max-width: 991px) {
-  #header {
-    background: rgba(245,245,245,0.65);    
-    height: 70px;
-    padding: 15px 0;
-    transition: all 0.5s;
-  }
 
-  #header #logo h1{
-    font-size: 24px;
-    font-weight: bold;
-  }  
-
-  #intro {
-    background-position-y: 70px;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-
-  #intro .about-btn {
-    
-    background: #FFC800;
-  }
-
-  
-  #nav-menu-container {
-    display: none;
-  }
-
-  #mobile-nav-toggle {
-    display: inline;
-  }
-
-  #intro .intro-container {
-    left: 40px;
-    top: 340px;  
-    
-  }
-  #about{
-    top: -50px;
-  }
-
- 
-
-  #intro h1 {
-    font-size: 34px;
-  }
-
-  #intro p {
-    font-size: 16px;
-  }
-
-  #schedule .nav-tabs a {
-    padding: 8px 60px;
-  }
-
-
-.back-to-top {
-  visibility: hidden;
-  
-}
-
-.floating-btn{
-  visibility: visible;
-  align-items: center;
-}
-
-
-
-
-
-#faq #faq-list a {
-  font-size: 18px;
-}
-
-#faq #faq-list i {
-  top: 13px;
-}
-  
-  
-}
-
-
-
-/* Iphone 6,6s,7,8*/
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-
+  @supports not (-webkit-touch-callout: none) {
+    /* CSS for other than iOS devices */ 
     #header {
       background: rgba(245,245,245,0.65);    
       height: 70px;
@@ -1307,9 +1220,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     #header #logo h1{
       font-size: 24px;
       font-weight: bold;
-    }
-  
-    
+    }  
   
     #intro {
       background-position-y: 70px;
@@ -1318,7 +1229,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     }
   
     #intro .about-btn {
-      visibility: hidden;
+      
       background: #FFC800;
     }
   
@@ -1332,7 +1243,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     }
   
     #intro .intro-container {
-      left: 50px;
+      left: 40px;
       top: 340px;  
       
     }
@@ -1354,28 +1265,128 @@ body.mobile-nav-active #mobile-nav-toggle {
       padding: 8px 60px;
     }
   
-
+  
   .back-to-top {
     visibility: hidden;
     
   }
-
+  
   .floating-btn{
     visibility: visible;
     align-items: center;
   }
-
   
-
   
-
+  
+  
+  
   #faq #faq-list a {
     font-size: 18px;
   }
-
+  
   #faq #faq-list i {
     top: 13px;
   }
+    
+  }
+  
+  
+}
+
+
+
+/* Iphone 6,6s,7,8*/
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+    @supports (-webkit-touch-callout: none) {
+      /* CSS specific to iOS devices */ 
+
+      #header {
+        background: rgba(245,245,245,0.65);    
+        height: 70px;
+        padding: 15px 0;
+        transition: all 0.5s;
+      }
+    
+      #header #logo h1{
+        font-size: 24px;
+        font-weight: bold;
+      }
+    
+      
+    
+      #intro {
+        background-position-y: 70px;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+    
+      #intro .about-btn {
+        visibility: hidden;
+        background: #FFC800;
+      }
+    
+      
+      #nav-menu-container {
+        display: none;
+      }
+    
+      #mobile-nav-toggle {
+        display: inline;
+      }
+    
+      #intro .intro-container {
+        left: 50px;
+        top: 340px;  
+        
+      }
+      #about{
+        top: -50px;
+      }
+    
+     
+    
+      #intro h1 {
+        font-size: 34px;
+      }
+    
+      #intro p {
+        font-size: 16px;
+      }
+    
+      #schedule .nav-tabs a {
+        padding: 8px 60px;
+      }
+    
+  
+    .back-to-top {
+      visibility: hidden;
+      
+    }
+  
+    .floating-btn{
+      visibility: visible;
+      align-items: center;
+    }
+  
+    
+  
+    
+  
+    #faq #faq-list a {
+      font-size: 18px;
+    }
+  
+    #faq #faq-list i {
+      top: 13px;
+    }
+    }
+
+    
 }
 
 /*Iphone 6,7,8 plus*/
@@ -1385,82 +1396,87 @@ body.mobile-nav-active #mobile-nav-toggle {
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
 
-    #header {
-      background: rgba(245,245,245,0.65);    
-      height: 70px;
-      padding: 15px 0;
-      transition: all 0.5s;
-    }
-  
-    #header #logo h1{
-      font-size: 24px;
-      font-weight: bold;
-    }
-  
+    @supports (-webkit-touch-callout: none) {
+      /* CSS specific to iOS devices */ 
+      #header {
+        background: rgba(245,245,245,0.65);    
+        height: 70px;
+        padding: 15px 0;
+        transition: all 0.5s;
+      }
+    
+      #header #logo h1{
+        font-size: 24px;
+        font-weight: bold;
+      }
+    
+      
+    
+      #intro {
+        background-position-y: 70px;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+    
+      #intro .about-btn {
+        visibility: hidden;
+        background: #FFC800;
+      }
+    
+      
+      #nav-menu-container {
+        display: none;
+      }
+    
+      #mobile-nav-toggle {
+        display: inline;
+      }
+    
+      #intro .intro-container {
+        left: 60px;
+        top: 360px;  
+        
+      }
+      #about{
+        top: -50px;
+      }
+    
+     
+    
+      #intro h1 {
+        font-size: 34px;
+      }
+    
+      #intro p {
+        font-size: 16px;
+      }
+    
+      #schedule .nav-tabs a {
+        padding: 8px 60px;
+      }
     
   
-    #intro {
-      background-position-y: 70px;
-      background-size: contain;
-      background-repeat: no-repeat;
-    }
-  
-    #intro .about-btn {
+    .back-to-top {
       visibility: hidden;
-      background: #FFC800;
-    }
-  
-    
-    #nav-menu-container {
-      display: none;
-    }
-  
-    #mobile-nav-toggle {
-      display: inline;
-    }
-  
-    #intro .intro-container {
-      left: 60px;
-      top: 360px;  
       
     }
-    #about{
-      top: -50px;
+  
+    .floating-btn{
+      visibility: visible;
+      align-items: center;
     }
   
-   
-  
-    #intro h1 {
-      font-size: 34px;
-    }
-  
-    #intro p {
-      font-size: 16px;
-    }
-  
-    #schedule .nav-tabs a {
-      padding: 8px 60px;
-    }
-  
-
-  .back-to-top {
-    visibility: hidden;
     
-  }
-
-  .floating-btn{
-    visibility: visible;
-    align-items: center;
-  }
-
+    #faq #faq-list a {
+      font-size: 18px;
+    }
   
-  #faq #faq-list a {
-    font-size: 18px;
-  }
+    #faq #faq-list i {
+      top: 13px;
+    }
+    }
 
-  #faq #faq-list i {
-    top: 13px;
-  }
+    
 
 }
 
@@ -1488,6 +1504,7 @@ body.mobile-nav-active #mobile-nav-toggle {
       background-position-y: 70px;
       background-size: contain;
       background-repeat: no-repeat;
+      
     }
   
     #intro .about-btn {
@@ -1495,7 +1512,7 @@ body.mobile-nav-active #mobile-nav-toggle {
       background: #FFC800;
       padding: 10px 20px;
     }
-  
+    
     
     #nav-menu-container {
       display: none;
@@ -1511,7 +1528,7 @@ body.mobile-nav-active #mobile-nav-toggle {
                 
     }
     #about{
-      top: -50px;
+      top: -450px;
     }
    
     #about h2{
@@ -1562,6 +1579,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   and (max-device-width: 1024px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 2) {
+
+     
+
     #header {
       background: rgba(245,245,245,0.65);    
       height: 70px;
