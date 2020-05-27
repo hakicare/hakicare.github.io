@@ -1595,8 +1595,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   
   #header {
-    background: rgba(245,245,245,0.65);
-    
+    background: rgba(245,245,245,0.65);    
     height: 70px;
     padding: 15px 0;
     transition: all 0.5s;
@@ -1631,7 +1630,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   #intro .intro-container {
     left: 50px;
-    top: 400px;  
+    top: 340px;  
     
   }
   #about{
