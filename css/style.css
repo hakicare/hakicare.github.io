@@ -1244,7 +1244,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   
     #intro .intro-container {
       left: 40px;
-      top: 340px;  
+      top: 380px;  
       
     }
     #about{
@@ -1340,7 +1340,7 @@ body.mobile-nav-active #mobile-nav-toggle {
       }
     
       #intro .intro-container {
-        left: 50px;
+        left: 30px;
         top: 340px;  
         
       }
