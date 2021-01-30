@@ -1,6 +1,6 @@
-Thanks for downloading this theme!
+Thanks for downloading this template!
 
-Theme Name: TheEvent
-Theme URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
+Template Name: Medilab
+Template URL: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/
 Author: BootstrapMade.com
-Author URL: https://bootstrapmade.com
+License: https://bootstrapmade.com/license/

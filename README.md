@@ -1,2 +1,0 @@
-# hakicare.github.io
-website
