@@ -22,6 +22,13 @@
   width: 100px;
 }
 
+#right_img{
+  max-width: 100% !important;
+}
+#dashimg{
+  max-width: 100% ;
+}
+
 #secondbtn {
   background: #121921;
   text-align: center;
@@ -4010,6 +4017,8 @@ background-size: 40px 40px; */
 
 .provide_feature_area .p_feature_right .p_feature_img {
   padding-top: 50px;
+  max-width: 100% !important;
+  
 }
 
 .p_left_item_inner .p_item {
@@ -10949,90 +10958,7 @@ background-size: 40px 40px; */
   padding-bottom: 110px;
 }
 
-/* End Clients Nine Area css
-============================================================================================ */
-/*---------------------------------------------------- */
-/*----------------------------------------------------*/
-/* Choose Server Area css
-============================================================================================ */
-.choose_server_area {
-  padding: 100px 0px;
-}
 
-.server_left_text .media {
-  margin-top: 40px;
-}
-
-.server_left_text .media:first-child {
-  margin-top: 0px;
-}
-
-.server_left_text .media .media-left {
-  padding-right: 15px;
-}
-
-.server_left_text .media .media-body h4 {
-  font-size: 18px;
-  font-family: "Heebo", sans-serif;
-  font-weight: bold;
-  color: #2fd2f0;
-  letter-spacing: 0.36px;
-  padding-bottom: 22px;
-}
-
-.server_left_text .media .media-body p {
-  font-size: 14px;
-  line-height: 24px;
-  color: #9baebf;
-  font-family: "Heebo", sans-serif;
-  letter-spacing: 0.28px;
-}
-
-.server_right_img {
-  text-align: center;
-  vertical-align: bottom;
-  height: 100%;
-  margin-top: 100px;
-}
-
-.server_right_img img {
-  max-width: 100%;
-}
-
-/* End Choose Server Area css
-============================================================================================ */
-/* Hosting Service Area css
-============================================================================================ */
-.hosting_service_area {
-  padding-bottom: 100px;
-}
-
-.hosting_service_inner .h_service_left {
-  margin-top: 45px;
-}
-
-.hosting_service_inner .h_service_left img {
-  max-width: 100%;
-}
-
-.h_service_right .h_service_list .media {
-  background: #f6f7fa;
-  padding: 12px 0px 12px 30px;
-}
-
-.h_service_right .h_service_list .media .media-left {
-  padding-right: 15px;
-}
-
-.h_service_right .h_service_list .media .media-body {
-  vertical-align: middle;
-}
-
-.h_service_right .h_service_list .media .media-body h4 {
-  font-size: 18px;
-  color: #6d89a1;
-  font-family: "Heebo", sans-serif;
-}
 
 /* End Hosting Service Area css
 ============================================================================================ */

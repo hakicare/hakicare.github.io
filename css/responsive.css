@@ -1,3 +1,8 @@
+@media(max-width: 1870px){
+	
+	
+}
+
 @media (max-width: 1630px){
 	.screenshot_area_two .screenshot_right .screenshot_carousel::before {
 		left: -6px;
@@ -18,11 +23,17 @@
 	.ten_newsletter_area::before {
 		display: none;
 	}
+	
+
+	
+	 
+	
 }
 @media (max-width: 1520px){
 	.body-padding {
 		padding: 50px 15px 0px;
 	}
+	
 }
 @media (max-width: 1460px){
 	.server_b_inner .server_shap_img {
@@ -48,12 +59,19 @@
 		right: -200px !important;
 		left: auto !important;
 	}
+	
 }
 @media (max-width: 1380px){
 	.main_slider_area .rev_slider .tp-bullets {
 		left: auto !important;
 		right: -150px !important;
+
 	}
+	.main_slider_area #dash_slider ul li .slider_text_box .right_img{
+		display: none;	
+		
+	}
+	
 }
 @media (max-width: 1215px){
 	.dash_tp_menu_area {
@@ -270,10 +288,9 @@
 		margin-right: 0px;
 		margin-left: 8px;
 	}
-	.main_slider_area #dash_slider ul li .slider_text_box .right_img img{
-		max-width: 100% !important;
-		height: 100% !important;
-	}
+	
+	
+	
 }
 @media (max-width: 991px){
 	.navbar-toggle {
@@ -1033,7 +1050,8 @@
 		display: none;
 	}
 	.main_slider_area #dash_slider ul li .slider_text_box .right_img{
-		display: none
+		display: none;	
+		
 	}
 	#main_slider_ten ul li .slider_text_box .ten_mobile {
 		display: none;

@@ -208,7 +208,7 @@ website:   	http://www.themepunch.com
 	overflow-x: visible;
 	overflow-y: visible;
 	list-style-type: none !important;
-	background-image:none;
+	background-image:image();
 	background-position:0px 0px;
 	text-indent: 0em;
 	top:0px;left:0px;
@@ -223,7 +223,7 @@ website:   	http://www.themepunch.com
 .tp-simpleresponsive >ul >li:before,
 .tp-revslider-mainul >li,
 .tp-simpleresponsive >ul >li { 
-	visibility:hidden; 
+	visibility:visible; 
 }
 
 .tp-revslider-slidesli,
@@ -247,7 +247,7 @@ website:   	http://www.themepunch.com
 .rev_slider .tp-caption,
 .rev_slider .caption 	{ 
 	position:relative;  
-	visibility:hidden; 
+	visibility:visible; 
 	white-space: nowrap;
 	display: block;	
 	-webkit-font-smoothing: antialiased !important;
@@ -300,8 +300,8 @@ website:   	http://www.themepunch.com
 .tp-hide-revslider,
 .tp-caption.tp-hidden-caption,
 .tp-parallax-wrap.tp-hidden-caption {	
-	visibility:hidden !important; 
-	display:none !important
+	visibility:visible !important; 
+	display:block !important
 }
 
 .rev_slider embed,
